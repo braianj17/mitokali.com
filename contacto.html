@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<meta charset="utf-8">
+<title>Contacto | Mitokali Eventos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="css/dark-theme.css" rel="stylesheet" media="screen" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+<link rel="stylesheet" type="text/css" href="skins/tango/skin.css" />
+</head>
+
+<!--Wrapper Start-->
+<div id="wrapper"> 
+  <!--Header Start-->
+  <header id="header"> <!--<span class="icon-dish"></span>-->
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="logo"><a href="index.html"><img src="images/logo-img.png" alt="Eventos Mitokali" title="Eventos Mitokali"></a></div>
+        </div>
+        <div class="span9 margin-non pull-right">
+          <div class="top-container">
+            <div class="span12">
+              <h3 class="slogan">Creando momentos memorables</h3>
+            </div>
+            </div>
+          <div class="navbar navbar-inverse nav-bar">
+            <div class="navbar-inner nav-bar-inner">
+              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+              <div class="nav-collapse collapse top-nav">
+                <ul class="nav">
+                  <li class="dropdown"> <a class="dropdown-toggle" href="index.html"> Inicio </a> </li>
+                  <li class="dropdown"> <a class="dropdown-toggle" href="servicios.html" > Servicios </a>                    
+                  </li>
+                  <li class="dropdown"> <a class="dropdown-toggle" href="galeria.html" > Galería </a>
+                  </li>
+                  <li class="dropdown active"> <a class="dropdown-toggle" href="contacto.html"> Contáctanos </a>
+                  </li>
+                </ul>
+              </div>
+              <!--/.nav-collapse --> 
+            </div>
+            <!-- /.navbar-inner --> 
+          </div>
+          <!--Nav End--> 
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Header End--> 
+  
+  <!--Banner Start-->
+  <section id="banner" class="height">
+    <div class="contact-banner"><img src="images/contacto/banner-contacto.jpg" alt="img"></div>
+  </section>
+  <!--Banner End--> 
+  
+  <!--Content Area Start-->
+  <section id="content" class="container">    
+    <!--Form Section Start-->
+    <section class="contact-form-section">
+      <div class="row-fluid">
+        <div class="span8">
+          <div class="contact-form">
+            <div class="head">
+              <h2>Solicite su cotización</h2>
+              <span class="email">email</span> </div>
+            <form action="gracias.php" method="post">
+              <ul class="form-list">
+                <li class="span4">
+                  <input type="text" required pattern="[a-zA-Z ]+" name="nombre" value="" placeholder="Nombre completo*" class="contact-input">
+                </li>
+                <li class="span4">
+                  <input type="text" required pattern="[0-9]{7,15}" name="telefono" value="" placeholder="Teléfono" class="contact-input">
+                </li>
+                <li class="span4">
+                  <input type="text" required pattern="^[a-zA-Z0-9-\_.]+@[a-zA-Z0-9-\_.]+\.[a-zA-Z0-9.]{2,5}$" name="email" value="" placeholder="Email*" class="contact-input">
+                </li>
+                <li class="span4" style="margin-left:0;">
+                  <select name="evento" class="" style="width:100%;">
+                    <option value="Otro" >Seleccione el tipo de evento</option>
+                    <option value="Cumpleaños">Cumpleaños</option>
+                    <option value="Graduaciones">Graduaciones</option>
+                    <option value="XV Años">XV Años</option>
+                    <option value="Bodas">Bodas</option>
+                    <option value="Fiesta infantil">Fiesta infantil</option>
+                    <option value="Inauguraciones">Inauguraciones</option>
+                    <option value="Lanzamientos de Marca">Lanzamientos de Marca</option>
+                    <option value="Eventos de Integracion">Eventos de Integracion</option>
+                    <option value="Fiestas de Fin de Año">Fiestas de Fin de Año</option>
+                    <option value="Coffe Break">Coffe Break</option>
+                    <option value="Catering">Catering</option>
+                    <option value="Otro">Otro</option>
+                  </select>                  
+                </li>
+                <li class="span4">
+                  <select name="lugar" class="" style="width:100%;">
+                    <option value="Otro" >¿Donde se realiza el evento?</option>
+                    <option value="Instalaciones propias">Instalaciones propias</option>
+                    <option value="Graduaciones">Jardin</option>
+                    <option value="XV Años">Salon de fiestas</option>
+                    <option value="Bodas">Haciendas</option>                    
+                    <option value="Otro">Otro</option>
+                  </select>
+                </li>
+                <li class="span4">
+                  <input type="text" required name="fecha" value="" placeholder="Fecha del evento*" class="contact-input">
+                </li>               
+                <li class="span12 margin-non">
+                  <textarea rows="10" cols="10" required name="comentario" class="textarea" placeholder="Describa su evento para atenderle mejor*"></textarea>
+                </li>
+                <li class="span2 margin-non">
+                  <input type="submit" name="submit" value="Enviar" class="btns btn-continue">
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="address-box">
+            <div class="head">
+              <h3>Dirección</h3>
+              <span class="location">location</span> </div>
+            <div class="address-area">
+            <p></p>
+              <ul>                
+                <li class="location">Calle 3 sur No. 5759, Col. El Cerrito<br>C.P. 72440, Puebla, Puebla</li>
+                <li class="call"> <strong class="phone">01 (222) 214 06 22</strong></li>
+                <!--<li class="email"> <a href="#" class="email">info@mitokali.com</a> <span class="small">(Recibirá nuestra respuesta lo más pronto posible)</span> </li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Form Section End--> 
+  </section>
+  <!--Content Area End--> 
+  
+  <!--Footer Area Start-->
+  <footer id="footer">
+    <div class="row-fluid">
+      <section class="footer-section-3">
+        <div class="container">
+          <div class="span6">
+            <div class="copy-section"><strong class="copy">2016-2017 MITOKALI EVENTOS | SERVICIO PARA TODO TIPO DE EVENTOS.</strong></div>
+          </div>
+          <div class="span6">
+            <div class="footer-social-box">
+              <ul>                
+                <li class="social-icon-1"><a href="https://www.facebook.com/Eventos.Mitokali/" target="_blank">facebook</a></li>
+                <li class="social-icon-2"><a href="https://twitter.com/even_mitokali" target="_blank">twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Footer Section Section 3 End--> 
+    </div>
+  </footer>
+  <!--Footer Area End--> 
+  
+</div>
+<script src="js/html5.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script defer src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/excanvas.js"></script> 
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37416898-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
